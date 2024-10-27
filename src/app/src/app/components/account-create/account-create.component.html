@@ -1,0 +1,22 @@
+<h2>Create Account</h2>
+<form (ngSubmit)="onSubmit()">
+  <label for="accountNumber">Account Number</label>
+  <input
+    type="text"
+    id="accountNumber"
+    [(ngModel)]="account.accountNumber"
+    name="accountNumber"
+    required
+  />
+
+  <label for="name">Name</label>
+  <input
+    type="text"
+    id="name"
+    [(ngModel)]="account.name"
+    name="name"
+    required
+  />
+
+  <button type="submit">Create Account</button>
+</form>

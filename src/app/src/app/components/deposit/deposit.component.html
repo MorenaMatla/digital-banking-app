@@ -1,0 +1,27 @@
+<h2>Deposit To Account</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <label for="accountNumber">Account Number</label>
+  <input
+    type="text"
+    id="accountNumber"
+    [(ngModel)]="accountNumber"
+    name="accountNumber"
+    required
+  />
+
+  <label for="amount">Amount</label>
+  <input
+    type="number"
+    id="amount"
+    [(ngModel)]="amount"
+    name="amount"
+    required
+  />
+
+  <button type="submit">Deposit To Account</button>
+</form>
+
+<div *ngIf="balance !== null">
+  <h3>New Balance: {{ balance | currency }}</h3>
+</div>

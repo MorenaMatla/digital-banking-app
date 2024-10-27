@@ -1,0 +1,17 @@
+<h2>Check Account Balance</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <label for="accountNumber">Account Number</label>
+  <input
+    type="text"
+    id="accountNumber"
+    [(ngModel)]="accountNumber"
+    name="accountNumber"
+    required
+  />
+  <button type="submit">Get Balance</button>
+</form>
+
+<div *ngIf="balance !== null">
+  <h3>Balance: {{ balance | currency }}</h3>
+</div>

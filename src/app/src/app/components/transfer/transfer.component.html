@@ -1,0 +1,31 @@
+<h2>Transfer Money</h2>
+<form (ngSubmit)="onSubmit()">
+  <label for="fromAccountNumber">From</label>
+  <input
+    type="text"
+    id="fromAccountNumber"
+    [(ngModel)]="fromAccountNumber"
+    name="fromAccountNumber"
+    required
+  />
+
+  <label for="toAccountNumber">To</label>
+  <input
+    type="text"
+    id="toAccountNumber"
+    [(ngModel)]="toAccountNumber"
+    name="toAccountNumber"
+    required
+  />
+
+  <label for="amount">Amount</label>
+  <input
+    type="number"
+    id="amount"
+    [(ngModel)]="amount"
+    name="amount"
+    required
+  />
+
+  <button type="submit">Transfer Money!</button>
+</form>
