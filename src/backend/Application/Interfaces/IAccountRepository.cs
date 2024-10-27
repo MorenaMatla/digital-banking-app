@@ -8,5 +8,7 @@ namespace financial_banking.Application.Interfaces
         Task<Account> GetAccountByAccountNumberAsync(string accountNumber);
         Task<bool> UpdateAccountAsync(string accountNumber, Account account);
         Task<bool> DeleteAccountAsync(string accountNumber);
+        Task<List<Transaction>> GetTransactionHistoryAsync(string accountNumber);
+        Task<decimal> GetBalanceAsync(string accountNumer);
     }
 }

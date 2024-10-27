@@ -44,6 +44,30 @@ namespace financial_banking.Api
             return Ok(account);
         }
 
+        [HttpGet("balance/{accountNumber}")]
+        public async Task<IActionResult> GetBalance(string accountNumber)
+        {
+            if(accountNumber == null || accountNumber == "" || accountNumber.Length != 10)
+                return BadRequest("Account Number is required and length must be 10");
+
+            
+            var balance = await _accountService.GetBalanceAsync(accountNumber);
+            if (balance == null) return NotFound();
+            return Ok(balance);
+        }
+
+        [HttpGet("trnHist/{accountNumber}")]
+        public async Task<IActionResult> GetTransactionHistory(string accountNumber)
+        {
+            if(accountNumber == null || accountNumber == "" || accountNumber.Length != 10)
+                return BadRequest("Account Number is required and length must be 10");
+
+            
+            var transactionHistory = await _accountService.GetTransactionHistoryAsync(accountNumber);
+            if (transactionHistory == null) return NotFound();
+            return Ok(transactionHistory);
+        }
+
         [HttpPut("{accountNumber}")]
         public async Task<IActionResult> UpdateAccount(string accountNumber, [FromBody] UpdateAccountDto updatedAccount)
         {

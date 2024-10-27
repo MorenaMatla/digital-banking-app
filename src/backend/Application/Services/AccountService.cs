@@ -38,21 +38,14 @@ namespace financial_banking.Application.Services
             return await _accountRepository.DeleteAccountAsync(accountNumber);
         }
 
-        public Task<decimal> DepositAsync(string accountNumber, decimal amount)
+        public async Task<decimal> GetBalanceAsync(string accountNumber)
         {
-            throw new NotImplementedException();
+            return await _accountRepository.GetBalanceAsync(accountNumber);
         }
 
-        public Task<decimal> GetBalanceAsync(string accountNumber)
+        public async Task<List<Transaction>> GetTransactionHistoryAsync(string accountNumber)
         {
-            throw new NotImplementedException();
+            return await _accountRepository.GetTransactionHistoryAsync(accountNumber);
         }
-
-        public Task<bool> TransferAsync(string fromAccountNumber, string toAccountNumber, decimal amount)
-        {
-            throw new NotImplementedException();
-        }
-
-
     }
 }

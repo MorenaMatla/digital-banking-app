@@ -61,5 +61,17 @@ namespace financial_banking.Infra.Repository
                 return false;
             }
         }
+
+        public async Task<List<Transaction>> GetTransactionHistoryAsync(string accountNumber)
+        {
+            var account = await GetAccountByAccountNumberAsync(accountNumber);
+            return account?.TransactionHistory ?? new List<Transaction>();
+        }
+
+        public async Task<decimal> GetBalanceAsync(string accountNumer)
+        {
+            var account = await GetAccountByAccountNumberAsync(accountNumer);
+            return account != null ? account.Balance : 0;
+        }
     }
 }

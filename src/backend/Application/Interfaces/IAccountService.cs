@@ -10,8 +10,7 @@ namespace financial_banking.Application.Interfaces
         Task<bool> UpdateAccountAsync(string accountNumber, UpdateAccountDto account);
         Task<bool> CreateAccountAsync(string accountNumber, string name);
         Task<decimal> GetBalanceAsync(string accountNumber);
-        Task<decimal> DepositAsync(string accountNumber, decimal amount);
-        Task<bool> TransferAsync(string fromAccountNumber, string toAccountNumber, decimal amount);
+        Task<List<Transaction>> GetTransactionHistoryAsync(string accountNumber);
         Task<Account> GetAccountAsync(string accountNumber);
     }
 }
