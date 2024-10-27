@@ -44,7 +44,7 @@ namespace financial_banking.Api
             return Ok(account);
         }
 
-        [HttpGet("balance/{accountNumber}")]
+        [HttpGet("{accountNumber}/balance")]
         public async Task<IActionResult> GetBalance(string accountNumber)
         {
             if(accountNumber == null || accountNumber == "" || accountNumber.Length != 10)
@@ -56,7 +56,7 @@ namespace financial_banking.Api
             return Ok(balance);
         }
 
-        [HttpGet("trnHist/{accountNumber}")]
+        [HttpGet("{accountNumber}/trnHist")]
         public async Task<IActionResult> GetTransactionHistory(string accountNumber)
         {
             if(accountNumber == null || accountNumber == "" || accountNumber.Length != 10)
